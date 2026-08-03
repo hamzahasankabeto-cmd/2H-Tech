@@ -4,46 +4,107 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>2H Tech</title>
-<link rel="stylesheet" href="style.css">
-</head>
 
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f5f5f5;
+}
+
+header{
+background:#0a8f3d;
+color:white;
+padding:18px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+}
+
+.search{
+padding:15px;
+}
+
+.search input{
+width:100%;
+padding:12px;
+border-radius:8px;
+border:1px solid #ccc;
+font-size:16px;
+}
+
+.card{
+background:white;
+margin:15px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,.2);
+}
+
+.card img{
+width:70px;
+height:70px;
+border-radius:15px;
+}
+
+button{
+background:#0a8f3d;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#067530;
+}
+</style>
+
+</head>
 <body>
 
-<header>
-<h1>2H Tech</h1>
-</header>
+<header>2H Tech</header>
 
 <div class="search">
 <input type="text" placeholder="Search Apps...">
 </div>
 
 <div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
 <h2>WhatsApp</h2>
 <p>Official Messaging App</p>
-<a href="https://play.google.com/store/apps/details?id=com.whatsapp" target="_blank">
-<button>Download</button>
-</a>
+<a href="https://play.google.com/store/apps/details?id=com.whatsapp"><button>Download</button></a>
 </div>
 
 <div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg">
 <h2>Telegram</h2>
-<p>Fast & Secure Messenger</p>
-<a href="https://play.google.com/store/apps/details?id=org.telegram.messenger" target="_blank">
-<button>Download</button>
-</a>
+<p>Fast and Secure Messenger</p>
+<a href="https://play.google.com/store/apps/details?id=org.telegram.messenger"><button>Download</button></a>
 </div>
 
 <div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg">
 <h2>ChatGPT</h2>
-<p>AI Assistant by OpenAI</p>
-<a href="https://play.google.com/store/apps/details?id=com.openai.chatgpt" target="_blank">
-<button>Download</button>
-</a>
+<p>AI Assistant</p>
+<a href="https://play.google.com/store/apps/details?id=com.openai.chatgpt"><button>Download</button></a>
 </div>
 
-<footer style="text-align:center;padding:20px;">
-© 2026 2H Tech. All Rights Reserved.
-</footer>
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
+<h2>Instagram</h2>
+<p>Share Photos & Videos</p>
+<a href="https://play.google.com/store/apps/details?id=com.instagram.android"><button>Download</button></a>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/09/TikTok_logo.svg">
+<h2>TikTok</h2>
+<p>Short Video Platform</p>
+<a href="https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically"><button>Download</button></a>
+</div>
 
 </body>
 </html>
